@@ -1,0 +1,19 @@
+Try ~ catch
+
+Try에는 문제가 발생할 수 있는 로직을 기술함
+
+Catch에서 문제가 발생했을 때 대처방안을 기술해줌
+
+Throws
+Try ~ catch문은 문제를 catch에서 해결했지만 throws의 경우에는 예외를 나를 호출한 쪽으로 던져버림
+
+자주보는 예외
+
+ArrayIndexOutOfBoundsException  배열을 사용시 존재하지 않는 인덱스값을 호출할때
+
+NullPointerException 존재하지 않는 객체를 가리킬 때 발생
+
+NumberFormatException 문자를 숫자로 처리할대 발생
+
+
+

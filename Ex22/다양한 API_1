@@ -1,0 +1,35 @@
+JAVA  개발자들이 깊은 지식이 없이 그냥 사용만 하면 되고 이러한 기능을 정의해둔 클래스들을 API라고 합니다.
+
+String은 객체형 자료
+하지만 뒤에 생성자를 사용하지 않고 기초데이터를 만들 때 처럼 초기화 하고 있다. 편의상
+
+
+String의 주요 메소드
+
+Concat : 문자 연결
+subString : 문자열 자르기
+Length : 길이
+toUpperCase : 대문자
+toLowerCase : 소문자
+charAt : 특정위치의 글자 찾기
+indexOf : 특정문자열의 위치
+Equal : 문자열 비교
+Trim : 문자열 공백제거
+Replace : 특정 문자 변경
+ReplaceAll : 특정 문자열 변경
+
+
+String의 문제점
+
+String class는 메모리의 과소비가 심하다. String 객체의 경우 처음
+초기화된 데이터에 변화가 생기면 기존 것을 재활용 하기보다는 새것을 찾는다.
+
+만약 ABC 라는 String 데이터에 DEF를 더한다고하면
+기존 ABC의 메모리에서 더하는게 아니라 ABCDEF라는 새로운 메모리에
+데이터를 넣는다.
+
+이것의 해결 대안으로 StringBuffer, StringBuilder가 등장했다.
+이둘은 조금의 차이가 있지만 거의 같다고 본다 StringBuilder가 속도가 좀더 빠르다.
+
+
+
